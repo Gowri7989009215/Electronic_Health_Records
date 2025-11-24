@@ -86,7 +86,7 @@ export const useAuth = () => {
 };
 
 // Configure axios defaults
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://electronic-health-record-6s09.onrender.com';
 axios.defaults.baseURL = API_BASE_URL;
 
 // Axios interceptor for token

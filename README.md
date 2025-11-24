@@ -67,7 +67,7 @@ docker-compose up -d
 
 3. **Access the application**
 - Frontend: http://localhost:3000
-- Backend API: http://localhost:5000
+- Backend API: https://electronic-health-record-6s09.onrender.com
 - MongoDB: localhost:27017
 
 ### Option 2: Manual Setup
@@ -214,7 +214,7 @@ NODE_ENV=development
 
 **Frontend**
 ```env
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=https://electronic-health-record-6s09.onrender.com
 ```
 
 ### Database Configuration

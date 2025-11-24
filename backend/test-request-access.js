@@ -9,7 +9,7 @@ async function testRequestAccess() {
     console.log('🔍 Testing Request Access Functionality...');
     
     // Connect to database
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://mongo:ZhpLkeXXQhVxvTxbDwwVRjmbaFgHqbSW@shinkansen.proxy.rlwy.net:18444');
+    await mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://chinthagowrishankar18_db_user:Gowri@2005@cluster0.npfnkoj.mongodb.net/?appName=Cluster0');
     console.log('✅ Connected to MongoDB');
     
     // Check if we have doctors and patients

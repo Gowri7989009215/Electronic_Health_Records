@@ -9,7 +9,7 @@ async function testRequestAccess() {
     console.log('🔍 Testing Request Access Functionality...');
     
     // Connect to database
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/ehr_system');
+    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://mongo:ZhpLkeXXQhVxvTxbDwwVRjmbaFgHqbSW@shinkansen.proxy.rlwy.net:18444');
     console.log('✅ Connected to MongoDB');
     
     // Check if we have doctors and patients

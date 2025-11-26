@@ -214,7 +214,7 @@ NODE_ENV=development
 
 **Frontend**
 ```env
-VITE_API_URL=https://ehr-backend-mobg.onrender.com
+VITE_API_URL=https://ehrb.onrender.com/api
 ```
 
 ### Database Configuration

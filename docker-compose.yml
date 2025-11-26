@@ -30,7 +30,7 @@ services:
     environment:
       NODE_ENV: production
       PORT: 5000
-      MONGODB_URI: mongodb://admin:password123@mongodb:27017/ehr_system?authSource=admin
+      MONGODB_URI: mongodb+srv://gowridb:Gowri2005@cluster0.stwwvld.mongodb.net/?appName=Cluster0
       JWT_SECRET: your-super-secret-jwt-key-change-in-production-2024
       ENCRYPTION_KEY: 32-character-secret-key-for-aes-256
     depends_on:

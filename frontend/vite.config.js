@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'https://electronic-health-record-6s09.onrender.com',
+        target: 'https://ehr-backend-mobg.onrender.com',
         changeOrigin: true,
         secure: false,
       }
